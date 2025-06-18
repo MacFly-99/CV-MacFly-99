@@ -26,6 +26,16 @@ img {
     height: 200px;
 }
 
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact span {
+    margin: 10px;
+}
+
 .title {
     color: #17abb3;
 }
@@ -38,7 +48,7 @@ time {
 .content {
     display: flex;
     justify-content: space-evenly;
-    height: 800px;
+    height: 1050px;
 }
 
 .left-section {
@@ -46,8 +56,16 @@ time {
     width: 400px;
 }
 
+li {
+    list-style-type: square;
+}
+
 .right-section {
     width: 760px;
+}
+
+.profile {
+    text-align: justify;
 }
 
 article {
@@ -57,6 +75,10 @@ article {
 .career {
     display: flex;
     justify-content: space-between;
+}
+
+address {
+    margin-bottom: 15px;
 }
 
 .language {

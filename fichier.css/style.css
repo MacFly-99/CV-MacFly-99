@@ -1,12 +1,83 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+
 header, footer {
     background-color: #17abb3;
     color:#ffffff;
+    max-width: 1160px;
 }
 
-h3 {
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+img {
+    border: 5px solid #ffffff;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.title {
     color: #17abb3;
 }
 
 time {
     color: #17abb3;
+    margin-right: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+}
+
+.left-section {
+    background-color: rgba(51, 51, 51, 0.1);
+    width: 400px;
+}
+
+.right-section {
+    width: 760px;
+}
+
+article {
+    margin-left: 50px;
+}
+
+.career {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.left-section hr {
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    margin-right: 50px;
+}
+
+.right-section hr {
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    margin-right: 50px;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -3,7 +3,6 @@ html {
     justify-content: center;
 }
 
-
 header, footer {
     background-color: #17abb3;
     color:#ffffff;
@@ -24,6 +23,7 @@ img {
     margin-bottom: 50px;
     width: 200px;
     height: 200px;
+    cursor: zoom-in;
 }
 
 .infos {
@@ -32,12 +32,26 @@ img {
     align-items: center;
 }
 
-.contact span {
+.contact {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
     margin: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .title {
     color: #17abb3;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    margin-right: 20px;
 }
 
 time {
@@ -56,16 +70,37 @@ time {
     width: 400px;
 }
 
+.language {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span, i {
+    margin-right: 20px;
+}
+
+.skills i {
+    color: #17abb3;
+    margin: 2px;
+}
+
 li {
     list-style-type: square;
 }
 
-.right-section {
-    width: 760px;
+li::marker {
+    color: #17abb3;
 }
 
-.profile {
-    text-align: justify;
+.right-section {
+    width: 760px;
 }
 
 article {
@@ -81,10 +116,9 @@ address {
     margin-bottom: 15px;
 }
 
-.language {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
+.effect:hover {
+    border-left:3px solid #17abb3;
+    background-color: rgba(51, 51, 51, 0.1);
 }
 
 .left-section hr {
@@ -100,6 +134,15 @@ address {
 footer {
     height: 70px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#brands {
+    margin: 10px;
+}
+
+#brands:hover {
+    color: rgba(245, 245, 245, 0.8);
 }

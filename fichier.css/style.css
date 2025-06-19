@@ -54,11 +54,6 @@ p {
     margin-right: 20px;
 }
 
-time {
-    color: #17abb3;
-    margin-right: 50px;
-}
-
 .content {
     display: flex;
     justify-content: space-evenly;
@@ -112,6 +107,10 @@ article {
     justify-content: space-between;
 }
 
+.time {
+    color: #17abb3;
+}
+
 address {
     margin-bottom: 15px;
 }
@@ -139,10 +138,6 @@ footer {
     align-items: center;
 }
 
-#brands {
-    margin: 10px;
-}
-
-#brands:hover {
+.brands:hover {
     color: rgba(245, 245, 245, 0.8);
 }
